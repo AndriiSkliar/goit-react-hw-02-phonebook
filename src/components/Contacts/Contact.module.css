@@ -39,10 +39,10 @@
   border-radius: 5px;
   box-shadow: var(--box-shadow);
   transition: all 0.2s ease-in-out;
+}
 
-  &:hover,
-  &:focus {
-    border-color: var(--dark-color);
-    opacity: 1;
-  }
+.contact__btn:hover,
+.contact__btn:focus {
+  border-color: var(--dark-color);
+  opacity: 1;
 }

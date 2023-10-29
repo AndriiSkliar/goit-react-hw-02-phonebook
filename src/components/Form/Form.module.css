@@ -24,10 +24,10 @@
   box-shadow: var(--box-shadow);
   transition: all 0.2s ease-in-out;
   font-weight: bold;
+}
 
-  &:hover,
-  &:focus {
-    border-color: var(--dark-color);
-    opacity: 1;
-  }
+.form__btn:hover,
+.form__btn:focus {
+  border-color: var(--dark-color);
+  opacity: 1;
 }
